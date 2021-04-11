@@ -1,0 +1,135 @@
+body{
+ font-size: 15px;
+ margin: 10px;
+ border: 10px;
+}
+   
+
+.box{
+    height: 20px;
+    width: 20px;
+   
+}
+.type{
+    border: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+} a{
+    text-decoration: none ;
+    color: black;
+}
+a:hover{
+    text-decoration-line: underline;
+    transition: 1s;
+    color: blue;
+}
+.type{
+  background-color: blue;
+  color: white;
+    padding: 10px;
+    width: 100px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.gugu{
+  height: 140px;}
+ 
+ main{
+  text-align-last: center;
+  margin: 0 10px 70px ; 
+ 
+ }
+ .small{
+     height: 20px;
+     width: 20px;
+ }
+ .search{ 
+    display: flex; 
+    justify-content: space-around;
+    border: 1px solid #dbd2d2; 
+     padding: 1em; 
+     margin: auto;
+     width: 600px;
+     border-radius: 50px; 
+   
+ }
+ .search:hover{
+     box-shadow: 0 0 2px 0 black;
+ }
+     
+ .search>input{
+   border: none; 
+   flex-grow: 1;
+  outline: none;
+ } 
+ img:hover{
+cursor: pointer;
+ }
+
+ .button{
+    margin-top: 30px;
+    border-radius: 50px;
+  
+}
+.button>button:hover{
+cursor: pointer;
+box-shadow: 0 0 2px 0 black;
+}
+.button>button{
+   padding: 10px;
+   border: none;
+   margin: 0 10px;
+
+}
+.middle{
+  margin: auto;
+  padding: 10px;
+
+}
+
+.middle>p{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.middle>a{
+    padding: 10px;
+    color: blue;
+    margin-top: 10px;
+ 
+}
+
+footer{
+  background-color: rgb(248, 238, 238);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+ .footer-top {
+
+margin-left: 15px;
+} 
+
+ .footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 202, 211);
+  
+} 
+
+.left> a{
+margin: 0 20px;
+
+} 
+.right> a{
+    margin: 0 20px;
+   
+}
+.col{
+  color: grey;
