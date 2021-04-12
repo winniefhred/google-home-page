@@ -132,4 +132,14 @@ margin: 0 20px;
    
 }
 .col{
-  color: grey;}
+  color: grey;
+  }
+  @media only screen and (max-width: 736px){
+    nav{
+        display: block;
+    }  
+    .box{
+        display: block;
+    }
+    
+  }
